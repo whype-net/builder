@@ -8,8 +8,8 @@ Small CLI utillity to query SteamDB for the Rust Dedicated Server depot informat
 $ builder check
 2023/10/23 00:28:26 'public' branch last updated at 1697442502.
 2023/10/23 00:28:26 Build ID: 12445585
-2023/10/23 00:28:26 Linx Manifest ID: {"download":"489786944","gid":"6107145083830036397","size":"889161339"}
-2023/10/23 00:28:26 Common Manifest ID: {"download":"1377924896","gid":"6661281094410849912","size":"5380483257"}
+2023/10/23 00:28:26 Linx Manifest ID: 6107145083830036397
+2023/10/23 00:28:26 Common Manifest ID: 6661281094410849912"
 ```
 
 **Export results**
