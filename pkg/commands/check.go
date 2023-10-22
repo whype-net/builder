@@ -62,8 +62,9 @@ func Check(c *cli.Context) error {
 	}
 
 	buildUpdatedTime := strings.Trim(v.Get("data", appId, "depots", "branches", branch, "timeupdated").String(), `"`)
-	linuxManifestId := strings.Trim(v.Get("data", appId, "depots", linuxDepotId, "manifests", branch).String(), `"`)
-	commonManifestId := strings.Trim(v.Get("data", appId, "depots", commonDepotId, "manifests", branch).String(), `"`)
+	linuxManifestId := strings.Trim(v.Get("data", appId, "depots", linuxDepotId, "manifests", branch, "gid").String(), `"`)
+	commonManifestId := strings.Trim(v.Get("data", appId, "depots", commonDepotId, "manifests", branch, "gid").String(), `"`)
+
 
 	if !export {
 		log.Printf("'%s' branch last updated at %s.", branch, buildUpdatedTime)
