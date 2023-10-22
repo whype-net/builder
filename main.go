@@ -4,7 +4,7 @@ import (
 	"log"
 	"os"
 
-	"gitlab.com/whype/gaming/builder/pkg/commands"
+	"github.com/whype-net/builder/pkg/commands"
 
 	cli "github.com/urfave/cli/v2"
 )
